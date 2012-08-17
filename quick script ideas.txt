@@ -1,0 +1,36 @@
+require 'csv'
+
+
+arr_of_arrs = CSV.read("c:\Users\mom\RubyStuff\SSN-ONLY.csv")
+
+
+
+
+
+
+CSV.open("myfile.csv", "w") do |csv|
+  csv << ["row", "of", "CSV", "data"]
+  csv << ["another", "row"]
+  # ...
+end
+
+
+
+
+
+require 'csv'       # call the CSV libray
+require 'digest/md5' # call the MD5 library
+
+
+array_SSN = CSV.read("c:\Users\mom\RubyStuff\SSN-ONLY.csv", headers: true)  #  read my CSV file into an array called array_SSN and allow for a header line
+
+  
+  incr_digest = Digest::MD5.new()  #setting up an array called incr_digest
+
+  file = array_SSN                           #setting “file” variable equal to  my array, not sure if this is necessary
+
+  file.each_line do |line|                #this is setting up to loop through each record
+    incr_digest << line                    #this is appending the each encrypted line to the end of my incr_digest array
+  end
+
+  puts incr_digest.hexdigest            #this will display the array on as one long string
