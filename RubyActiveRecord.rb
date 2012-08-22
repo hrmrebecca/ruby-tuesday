@@ -43,7 +43,8 @@ class UserInteraction
     middle_name = ask("Middle name?").upcase
     suffix = ask("Suffix?").upcase
     full_name = "#{last_name} #{first_name} #{middle_name} #{suffix}"
-    puts full_name
+    check_dup = Person.where(['name1 LIKE ?', "#{full_name}"]).first
+    puts check_dup[1]
   end
   
   def edit

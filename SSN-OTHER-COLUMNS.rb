@@ -23,18 +23,21 @@ class CSVSSNFF
     #harleyVille.each {|m| puts m[0]  }
   end  
     
-  def addSampleResult  
-    @regularssn << ["200","0","0","C","HUNTER REBECCA","987654321"]  
-    CSV.open(@filename, 'w') do |csv|  
-      @regularssn.each do |result|  
-        csv << result  
-      end  
-    end  
+  def addSampleResult
+    @regularssn = ["200","0","0","C","HUNTER REBECCA","987654321"]  
+    #CSV.open(@filename, 'w') do |csv|  
+    #  @regularssn.each do |result|  
+   #     csv << result
+          writer = CSV.open(@filename, 'a')
+    writer << @regularssn
+    writer.close
+  #    end  
+   # end  
   end  
     
   c1 = CSVSSNFF.new("SSNFF.csv")  #passes the filename into the class
   c1.Encrypt # displays CSV as two dimensional array  
   #c1.EncryptSSN # 
- # c1.addSampleResult()  
+  c1.addSampleResult
  # c1.printUnencrypted # print updated csv file  
 end  
