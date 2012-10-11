@@ -1,0 +1,483 @@
+<?xml version="1.0" standalone="yes"?>
+<ThreatCategoryGlossaryDB xmlns="http://tempuri.org/ThreatCategoryGlossaryDB.xsd">
+  <ThreatCategoryGlossary>
+    <CategoryID>1</CategoryID>
+    <CategoryName>Adware (General)</CategoryName>
+    <CategoryDescription>Adware, also known as advertising software, displays third-party advertising on the computer. The ads can take several forms, including pop-ups, pop-unders, banners, or links embedded within web pages or parts of the Windows interface. Some adware advertising might consists of text ads shown within the application itself or within side bars, search bars, and search results. Adware is often contextually or behaviorally based and tracks browsing habits in order to display ads that are meant to be relevant to the user.</CategoryDescription>
+    <ThreatTypeID>1</ThreatTypeID>
+    <ThreatType>Adware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>9</CategoryID>
+    <CategoryName>Adware Bundler</CategoryName>
+    <CategoryDescription>An Adware Bundler is a downloadable program that is typically "freeware" because it is bundled with advertising software -- adware. The adware may function independently of the bundler program, but in some cases the bundler program will not function if the adware is removed, or will not install unless the adware is installed. Most Adware Bundlers install several adware applications from multiple adware vendors, each of which is governed by a separate End User License Agreement (EULA) and Privacy Policy. Some Adware Bundlers may not fully and properly disclose the presence of bundled advertising software during installation.</CategoryDescription>
+    <ThreatTypeID>3</ThreatTypeID>
+    <ThreatType>Low Risk Software</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>2</CategoryID>
+    <CategoryName>Adware Downloader</CategoryName>
+    <CategoryDescription>An Adware Downloader is a multi-dropper application that installs multiple advertising programs from a single adware vendor.</CategoryDescription>
+    <ThreatTypeID>1</ThreatTypeID>
+    <ThreatType>Adware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>3</CategoryID>
+    <CategoryName>Adware Installer</CategoryName>
+    <CategoryDescription>An Adware Installer is a "freeware" program from an adware vendor that bundles advertising software (adware) from the adware vendor itself.</CategoryDescription>
+    <ThreatTypeID>1</ThreatTypeID>
+    <ThreatType>Adware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>21</CategoryID>
+    <CategoryName>Backdoor</CategoryName>
+    <CategoryDescription>A Backdoor is a software program that gives an attacker unauthorized access to a machine and the means for remotely controlling the machine without the user's knowledge. A Backdoor compromises system integrity by making changes to the system that allow it to by used by the attacker for malicious purposes unknown to the user.</CategoryDescription>
+    <ThreatTypeID>7</ThreatTypeID>
+    <ThreatType>Malware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>4</CategoryID>
+    <CategoryName>Browser Plug-in</CategoryName>
+    <CategoryDescription>A Browser Plug-in is a software module that is attached to the browser, usually Internet Explorer, and that works within the browser to provide additional functionality. Browser Plug-ins may be installed with adware and used to display advertising as well as redirect the browser to alternate sites and alternate search results. Many Browser Plug-ins also monitor user web surfing and search data to facilitate targeted, contextual advertising. A toolbar is one type of Browser Plug-in.</CategoryDescription>
+    <ThreatTypeID>1</ThreatTypeID>
+    <ThreatType>Adware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>37</CategoryID>
+    <CategoryName>Commercial Key Logger</CategoryName>
+    <CategoryDescription>A Commercial Key Logger is a program that captures and logs keystrokes as they are entered on the computer for the purpose of monitoring the user. The logged data, which may be encrypted, is saved or sent to the person who installed the key logger. These applications often run in stealth mode and are invisible to the user that is being monitored. Such key loggers are sold commercially and may be used legitimately if deployed by authorized administrators and disclosed to the persons being monitored, as in a business environment. The use of a key logger to monitor persons without their knowledge has been ruled illegal in at least one jurisdiction.</CategoryDescription>
+    <ThreatTypeID>11</ThreatTypeID>
+    <ThreatType>Surveillance Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>27</CategoryID>
+    <CategoryName>Commercial Remote Control Tool</CategoryName>
+    <CategoryDescription>A Commercial Remote Control Tool is a network application that allows administrators to manage and control PCs or networks from a remote location. Typically used in an enterprise environment, Commercial Remote Control Tools have legitimate uses for I.T. administration and are not harmful unless installed and used without the knowledge of the computer user or network administrator.</CategoryDescription>
+    <ThreatTypeID>8</ThreatTypeID>
+    <ThreatType>Remote Control Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>19</CategoryID>
+    <CategoryName>Cookie (General)</CategoryName>
+    <CategoryDescription>Cookies are small "data tags" that web sites and services store on users' PCs in order to distinguish and recognize unique visitors. Cookies are used by web sites to identify returning visitors who have registered for special services; to monitor, measure, and analyze visitors' navigation and use of web site features; to count unique visitors to web pages and web sites; and to allow web surfers to use virtual "shopping carts" at e-commerce sites. Online advertising networks use Cookies to track users across web sites and to measure ad impressions and click-throughs. Although Cookies do not identify you personally and generally do not represent an immediate threat to your privacy and security, some users may be concerned about the potential long-term privacy effects of advertising cookies, which allow ad networks to compile anonymous profiles of users' web surfing history and online behavior.</CategoryDescription>
+    <ThreatTypeID>6</ThreatTypeID>
+    <ThreatType>Cookie</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>7</CategoryID>
+    <CategoryName>Dialer (General)</CategoryName>
+    <CategoryDescription>A Dialer is a program that uses the computer's modem to dial telephone numbers, often without the user's knowledge and consent. A Dialer can connect to a toll number that adds long distance charges to the telephone bill without the user's knowledge or permission. Dialers may be downloaded through exploits and installed without notice and consent. A Dialer may be legitimate if downloaded and installed with full, meaningful, and informed user consent.</CategoryDescription>
+    <ThreatTypeID>2</ThreatTypeID>
+    <ThreatType>Dialer</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>28</CategoryID>
+    <CategoryName>E-Mail Flooder</CategoryName>
+    <CategoryDescription>An E-Mail Flooder is a program used to send mass e-mail to flood or disrupt a PC or network.</CategoryDescription>
+    <ThreatTypeID>8</ThreatTypeID>
+    <ThreatType>Remote Control Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>22</CategoryID>
+    <CategoryName>Exploit</CategoryName>
+    <CategoryDescription>An Exploit is software or code that targets security vulnerabilities, usually in the operating system or browser, but may also target vulnerabilities in other programs. Exploits are typically used to install malicious software on the victim's computer without the victim's knowledge or consent. An Exploit may be used to install malware that gives the attacker complete access to and control of the affected computer from a remote location.</CategoryDescription>
+    <ThreatTypeID>7</ThreatTypeID>
+    <ThreatType>Malware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>5</CategoryID>
+    <CategoryName>Hijacker</CategoryName>
+    <CategoryDescription>Hijackers are software programs that modify users' default browser home page, search settings, error page settings, or desktop wallpaper without adequate notice, disclosure, or user consent. When the default home page is hijacked, the browser opens to the web page set by the hijacker instead of the user's designated home page. In some cases, the hijacker may block users from restoring their desired home page. A search hijacker redirects search results to other pages and may transmit search and browsing data to unknown servers. An error page hijacker directs the browser to another page, usually an advertising page, instead of the usual error page when the requested URL is not found. A desktop hijacker replaces the desktop wallpaper with advertising for products and services on the desktop.</CategoryDescription>
+    <ThreatTypeID>1</ThreatTypeID>
+    <ThreatType>Adware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>10</CategoryID>
+    <CategoryName>Joke Program</CategoryName>
+    <CategoryDescription>A Joke Program is software that is designed to mimic the actions of a virus but is not malicious and does not harm the machine. </CategoryDescription>
+    <ThreatTypeID>3</ThreatTypeID>
+    <ThreatType>Low Risk Software</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>38</CategoryID>
+    <CategoryName>Key Logger</CategoryName>
+    <CategoryDescription>A key logger is a program that captures and logs keystrokes on the computer without the user's knowledge and consent. The logged data may be encrypted and is typically sent to a remote attacker. The key logger is usually hidden from the user and may use cloaking (rootkit) technology to hide from other software in order to evade detection by anti-malware applications. Key loggers may be installed by trojans with other malicious software through exploits, and are often used by online criminal gangs to facilitate identity theft and bank fraud operations.</CategoryDescription>
+    <ThreatTypeID>11</ThreatTypeID>
+    <ThreatType>Surveillance Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>11</CategoryID>
+    <CategoryName>Low Risk Adware</CategoryName>
+    <CategoryDescription>Low Risk Adware is advertising software that displays ads on the desktop but is installed with better notice, disclosure and user consent than the majority of adware programs. Nonetheless, some Low Risk Adware programs may still not fully disclose all potentially objectionable functionality during installation. Some Low Risk Adware programs display less intrusive forms of advertising, such as banner ads or text links embedded within the program itself. Low Risk Adware typically does not transmit personally identifiable information (PII) and is not considered a serious privacy risk.</CategoryDescription>
+    <ThreatTypeID>3</ThreatTypeID>
+    <ThreatType>Low Risk Software</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>20</CategoryID>
+    <CategoryName>Malware (General)</CategoryName>
+    <CategoryDescription>Malware ("malicious software") is a general term for software with clearly malicious, hostile, or harmful functionality or behavior and that is used to compromise and endanger individual PCs as well as entire networks. Threats in this "general" category do not fall into other more specific categories of malware.</CategoryDescription>
+    <ThreatTypeID>7</ThreatTypeID>
+    <ThreatType>Malware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>17</CategoryID>
+    <CategoryName>Misc (General)</CategoryName>
+    <CategoryDescription>Miscellaneous threats include applications that do not fit into other categories or that fall into multiple categories. Miscellaneous threats typically include some form of potentially objectionable functionality that may pose privacy or security risks to users and their PCs.</CategoryDescription>
+    <ThreatTypeID>5</ThreatTypeID>
+    <ThreatType>Misc</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>29</CategoryID>
+    <CategoryName>Nuker</CategoryName>
+    <CategoryDescription>A Nuker is a malicious network application used to disable a computer from a remote location by exploiting security holes to crash system processes on the target computer or damage the target computer's files, network configuration, and Registry.</CategoryDescription>
+    <ThreatTypeID>8</ThreatTypeID>
+    <ThreatType>Remote Control Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>12</CategoryID>
+    <CategoryName>P2P Program</CategoryName>
+    <CategoryDescription>A P2P (or Peer to Peer) Program is software that enables the user to participate in an online file sharing network and trade or share files with other users in the network. P2P Programs often bundle advertising software, but some P2P Programs are adware-free. P2P Programs are typically not harmful in and of themselves, but the user is at risk for infection with adware and/or malware though files downloaded from the file sharing network.</CategoryDescription>
+    <ThreatTypeID>3</ThreatTypeID>
+    <ThreatType>Low Risk Software</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>39</CategoryID>
+    <CategoryName>Password Cracker/Stealer</CategoryName>
+    <CategoryDescription>A Password Cracker is software that is used to discover secret passwords on a computer or network. While Password Crackers have legitimate uses, they may also used by an attacker to gain unauthorized access to a computer or network without the user's or network administrator's knowledge and consent. A Password Stealer is software that surreptitiously captures passwords, typically used by an attacker to gain unauthorized access to a computer or network or to obtain login credentials for financial accounts and institutions. Password Crackers and Stealers are often designed to be executed and used in stealth mode, undetected by computer users and network administrators.</CategoryDescription>
+    <ThreatTypeID>11</ThreatTypeID>
+    <ThreatType>Surveillance Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>40</CategoryID>
+    <CategoryName>Password Recovery</CategoryName>
+    <CategoryDescription>Password Recovery software is used to uncover and display lost or forgotten passwords on a computer or network. While Password Recovery programs have legitimate uses, they may also be used to again unauthorized access to a computer and to a user's data. Unlike password crackers and stealers, Password Recovery programs typically cannot be executed and used without the knowledge of the computer user.</CategoryDescription>
+    <ThreatTypeID>11</ThreatTypeID>
+    <ThreatType>Surveillance Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>8</CategoryID>
+    <CategoryName>Porn Dialer</CategoryName>
+    <CategoryDescription>A Porn Dialer is a program that uses the computer's modem to connect to an online pornographic service, often without the user's knowledge and consent, by dialing a toll number that adds long distance charges to the telephone bill. Porn Dialers may be downloaded through exploits and installed without user notice and consent. A Porn Dialer may be legitimate if downloaded and installed with full, meaningful, and informed user consent.</CategoryDescription>
+    <ThreatTypeID>2</ThreatTypeID>
+    <ThreatType>Dialer</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>13</CategoryID>
+    <CategoryName>Potential Privacy Risk</CategoryName>
+    <CategoryDescription>Software designated Potential Privacy Risk includes programs that are not harmful to the user's system, but which may use inadequate privacy policies or poor disclosure of data collection and transmission practices, including personally identifiable information (PII) or non-personally identifying information, in the End User License Agreement (EULA).</CategoryDescription>
+    <ThreatTypeID>3</ThreatTypeID>
+    <ThreatType>Low Risk Software</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>15</CategoryID>
+    <CategoryName>Potentially Dangerous Tool</CategoryName>
+    <CategoryDescription>A Potentially Dangerous Tool is an application that is not necessarily harmful if properly installed by the user or administrator of the PC, but which could be harmful or disruptive to the user, PC, or network if deployed by unauthorized parties for potentially malicious purposes.</CategoryDescription>
+    <ThreatTypeID>4</ThreatTypeID>
+    <ThreatType>Potential I.T. Risk</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>14</CategoryID>
+    <CategoryName>Potentially Unwanted Program</CategoryName>
+    <CategoryDescription>Potentially Unwanted Programs include software that does not fit into another category (such as Low Risk Adware or Potential Privacy Risk) that users might want detected because the software includes some form of potentially objectionable functionality.</CategoryDescription>
+    <ThreatTypeID>3</ThreatTypeID>
+    <ThreatType>Low Risk Software</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>30</CategoryID>
+    <CategoryName>RAT</CategoryName>
+    <CategoryDescription>A RAT is a Remote Administration Tool that gives an attacker the means to manipulate and control a target machine from a remote location over the internet. A RAT gives the attacker full control of the compromised machine and is used for malicious purposes. RATs typically consist of two components: a server application that resides on the target machine and responds to remote commands; a client application that is used by the attacker to control and configure the server applications on compromised machines.</CategoryDescription>
+    <ThreatTypeID>8</ThreatTypeID>
+    <ThreatType>Remote Control Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>18</CategoryID>
+    <CategoryName>Rogue Security Program</CategoryName>
+    <CategoryDescription>A Rogue Security Program is software that purports to scan and detect malware or other problems on the computer, but which attempts to dupe or badger users into purchasing the program by presenting the user with intrusive, deceptive warnings and/or false, misleading scan results. Rogue Security Programs typically use aggressive, deceptive advertising and may be installed without adequate notice and consent, often though exploits.</CategoryDescription>
+    <ThreatTypeID>5</ThreatTypeID>
+    <ThreatType>Misc</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>23</CategoryID>
+    <CategoryName>Rootkit</CategoryName>
+    <CategoryDescription>A Rootkit is software that cloaks the presence of files and data to evade detection, while allowing an attacker to take control of the machine without the user's knowledge. Rootkits are typically used by malware including viruses, spyware, trojans, and backdoors, to conceal themselves from the user as well as from malware detection software such as anti-virus and anti-spyware applications. Rootkits are also used by some adware applications and DRM (Digital Rights Management) programs to thwart the removal of that unwanted software by users.</CategoryDescription>
+    <ThreatTypeID>7</ThreatTypeID>
+    <ThreatType>Malware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>24</CategoryID>
+    <CategoryName>Security Disabler</CategoryName>
+    <CategoryDescription>A Security Disabler is a program that compromises or terminates security applications running on the machine, including software firewalls, anti-virus programs, and anti-spyware programs. A Security Disabler may also delete anti-virus and anti-spyware definitions. Some sophisticated Security Disablers are capable of terminating security software while giving the appearance that it is still running.</CategoryDescription>
+    <ThreatTypeID>7</ThreatTypeID>
+    <ThreatType>Malware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>36</CategoryID>
+    <CategoryName>Surveillance (General)</CategoryName>
+    <CategoryDescription>A Surveillance Tool is a program that monitors and captures data from a computer including screenshots, keystrokes, web cam and microphone data, instant messaging, email, websites visited, programs run and files accessed and files shared on a P2P (peer to peer) network. Many Surveillance Tools can run in stealth mode, hidden from the user, and have the ability to store captured data for later retrieval by or transmission to another computer.</CategoryDescription>
+    <ThreatTypeID>11</ThreatTypeID>
+    <ThreatType>Surveillance Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>41</CategoryID>
+    <CategoryName>System Snooper</CategoryName>
+    <CategoryDescription>A System Snooper is a program that is used to monitor and record data on the computer's usage. System Snoopers may track address bar URLs, browser cache, search history, file download history, recently used documents, recently run programs, cookies, and index.dat files. While System Snoopers may have legitimate uses, they may also be used to monitor other people's computer use without their knowledge and consent. Some System Snoopers are easily visible to the user, while others may be hidden.</CategoryDescription>
+    <ThreatTypeID>11</ThreatTypeID>
+    <ThreatType>Surveillance Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>6</CategoryID>
+    <CategoryName>Toolbar</CategoryName>
+    <CategoryDescription>A Toolbar is a type of browser plug-in that adds a third-party utility bar to the web browser, usually just below or next to the browser's address bar. A Toolbar typically has a search function and provides search results for paid advertisers. It often has buttons that are links to advertisers' web pages. An advertising toolbar may track browsing and search queries in order to display contextually relevant search results and ads.</CategoryDescription>
+    <ThreatTypeID>1</ThreatTypeID>
+    <ThreatType>Adware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>25</CategoryID>
+    <CategoryName>Trojan</CategoryName>
+    <CategoryDescription>Trojan is a general term for malicious software that is installed under false or deceptive pretenses or is installed without the user's full knowledge and consent. Most Trojans exhibit some form of malicious, hostile, or harmful functionality or behavior.</CategoryDescription>
+    <ThreatTypeID>7</ThreatTypeID>
+    <ThreatType>Malware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>26</CategoryID>
+    <CategoryName>Trojan Downloader</CategoryName>
+    <CategoryDescription>A Trojan Downloader is a program typically installed through an exploit or some other deceptive means and that facilitates the download and installation of other malware and unwanted software onto a victim's PC. A Trojan Downloader may download adware, spyware or other malware from multiple servers or sources on the internet.</CategoryDescription>
+    <ThreatTypeID>7</ThreatTypeID>
+    <ThreatType>Malware</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>31</CategoryID>
+    <CategoryName>Trojan FTP</CategoryName>
+    <CategoryDescription>A Trojan FTP program is a File Transmission Protocol tool that allows an attacker to download, upload and replace files on the affected machine, typically for malicious purposes. A Trojan FTP is usually installed through an exploit without the victim's knowledge and consent, and is often used to host potentially dangerous or illegal content (warez, child porn, etc.) on the compromised computer.</CategoryDescription>
+    <ThreatTypeID>8</ThreatTypeID>
+    <ThreatType>Remote Control Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>32</CategoryID>
+    <CategoryName>Trojan Telnet</CategoryName>
+    <CategoryDescription>A Trojan Telnet program is a network console tool used by an attacker to control and exploit the telnet network protocol on a target machine for malicious purposes, typically by gaining remote access to the affected computer and other computers on the network and downloading and/or uploading data.</CategoryDescription>
+    <ThreatTypeID>8</ThreatTypeID>
+    <ThreatType>Remote Control Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>16</CategoryID>
+    <CategoryName>Unauthorized Program</CategoryName>
+    <CategoryDescription>An Unauthorized Program in an I.T. environment could be any software program installed by users on the network that is not compliant with the I.T. and security policies of the network owner or administrator.</CategoryDescription>
+    <ThreatTypeID>4</ThreatTypeID>
+    <ThreatType>Potential I.T. Risk</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>60</CategoryID>
+    <CategoryName>Virus.Boot</CategoryName>
+    <CategoryDescription>A Virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>34</CategoryID>
+    <CategoryName>Virus.Generic</CategoryName>
+    <CategoryDescription>A virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>56</CategoryID>
+    <CategoryName>Virus.Java</CategoryName>
+    <CategoryDescription>A Virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>57</CategoryID>
+    <CategoryName>Virus.Linux</CategoryName>
+    <CategoryDescription>A Virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>62</CategoryID>
+    <CategoryName>Virus.MacIntel</CategoryName>
+    <CategoryDescription>A Virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>61</CategoryID>
+    <CategoryName>Virus.MacPPC</CategoryName>
+    <CategoryDescription>A Virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>59</CategoryID>
+    <CategoryName>Virus.Macro</CategoryName>
+    <CategoryDescription>A Virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>55</CategoryID>
+    <CategoryName>Virus.VBS</CategoryName>
+    <CategoryDescription>A Virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>52</CategoryID>
+    <CategoryName>Virus.W32</CategoryName>
+    <CategoryDescription>A Virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>54</CategoryID>
+    <CategoryName>Virus.W64</CategoryName>
+    <CategoryDescription>A Virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>53</CategoryID>
+    <CategoryName>Virus.W95</CategoryName>
+    <CategoryDescription>A Virus is a piece of malicious code that has the ability to replicate itself and invade other programs or files in order to spread within the infected machine. Viruses typically spread when users execute infected files or load infected media, especially removable media such as floppy disks or CD-ROMs. Viruses can also spread via email through infected attachments and files. Most Viruses include a "payload" of some sort. Some "payloads" are merely annoying and disruptive; other "payloads" may damage software and data on a computer or even the computer hardware itself.</CategoryDescription>
+    <ThreatTypeID>9</ThreatTypeID>
+    <ThreatType>Virus</ThreatType>
+    <IsVirus>true</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>35</CategoryID>
+    <CategoryName>Worm.Generic</CategoryName>
+    <CategoryDescription>A Worm is a malicious program that spreads itself without any user intervention. Worms are similar to viruses in that they self-replicate. Unlike viruses, however, worms spread without attaching to or infecting other programs and files. A Worm can spread across computer networks via security holes on vulnerable machines connected to the network. Worms can also spread through email by sending copies of itself to everyone in the user's address book. A Worm may consume a large amount of system resources and cause the machine to become noticeably sluggish and unreliable. Some Worms may be used to compromise infected machines and download additional malicious software.</CategoryDescription>
+    <ThreatTypeID>10</ThreatTypeID>
+    <ThreatType>Worm</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>67</CategoryID>
+    <CategoryName>Worm.Java</CategoryName>
+    <CategoryDescription>A Worm is a malicious program that spreads itself without any user intervention. Worms are similar to viruses in that they self-replicate. Unlike viruses, however, worms spread without attaching to or infecting other programs and files. A Worm can spread across computer networks via security holes on vulnerable machines connected to the network. Worms can also spread through email by sending copies of itself to everyone in the user's address book. A Worm may consume a large amount of system resources and cause the machine to become noticeably sluggish and unreliable. Some Worms may be used to compromise infected machines and download additional malicious software.</CategoryDescription>
+    <ThreatTypeID>10</ThreatTypeID>
+    <ThreatType>Worm</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>68</CategoryID>
+    <CategoryName>Worm.Linux</CategoryName>
+    <CategoryDescription>A Worm is a malicious program that spreads itself without any user intervention. Worms are similar to viruses in that they self-replicate. Unlike viruses, however, worms spread without attaching to or infecting other programs and files. A Worm can spread across computer networks via security holes on vulnerable machines connected to the network. Worms can also spread through email by sending copies of itself to everyone in the user's address book. A Worm may consume a large amount of system resources and cause the machine to become noticeably sluggish and unreliable. Some Worms may be used to compromise infected machines and download additional malicious software.</CategoryDescription>
+    <ThreatTypeID>10</ThreatTypeID>
+    <ThreatType>Worm</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>71</CategoryID>
+    <CategoryName>Worm.MacIntel</CategoryName>
+    <CategoryDescription>A Worm is a malicious program that spreads itself without any user intervention. Worms are similar to viruses in that they self-replicate. Unlike viruses, however, worms spread without attaching to or infecting other programs and files. A Worm can spread across computer networks via security holes on vulnerable machines connected to the network. Worms can also spread through email by sending copies of itself to everyone in the user's address book. A Worm may consume a large amount of system resources and cause the machine to become noticeably sluggish and unreliable. Some Worms may be used to compromise infected machines and download additional malicious software.</CategoryDescription>
+    <ThreatTypeID>10</ThreatTypeID>
+    <ThreatType>Worm</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>70</CategoryID>
+    <CategoryName>Worm.MacPPC</CategoryName>
+    <CategoryDescription>A Worm is a malicious program that spreads itself without any user intervention. Worms are similar to viruses in that they self-replicate. Unlike viruses, however, worms spread without attaching to or infecting other programs and files. A Worm can spread across computer networks via security holes on vulnerable machines connected to the network. Worms can also spread through email by sending copies of itself to everyone in the user's address book. A Worm may consume a large amount of system resources and cause the machine to become noticeably sluggish and unreliable. Some Worms may be used to compromise infected machines and download additional malicious software.</CategoryDescription>
+    <ThreatTypeID>10</ThreatTypeID>
+    <ThreatType>Worm</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>69</CategoryID>
+    <CategoryName>Worm.Macro</CategoryName>
+    <CategoryDescription>A Worm is a malicious program that spreads itself without any user intervention. Worms are similar to viruses in that they self-replicate. Unlike viruses, however, worms spread without attaching to or infecting other programs and files. A Worm can spread across computer networks via security holes on vulnerable machines connected to the network. Worms can also spread through email by sending copies of itself to everyone in the user's address book. A Worm may consume a large amount of system resources and cause the machine to become noticeably sluggish and unreliable. Some Worms may be used to compromise infected machines and download additional malicious software.</CategoryDescription>
+    <ThreatTypeID>10</ThreatTypeID>
+    <ThreatType>Worm</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>66</CategoryID>
+    <CategoryName>Worm.VBS</CategoryName>
+    <CategoryDescription>A Worm is a malicious program that spreads itself without any user intervention. Worms are similar to viruses in that they self-replicate. Unlike viruses, however, worms spread without attaching to or infecting other programs and files. A Worm can spread across computer networks via security holes on vulnerable machines connected to the network. Worms can also spread through email by sending copies of itself to everyone in the user's address book. A Worm may consume a large amount of system resources and cause the machine to become noticeably sluggish and unreliable. Some Worms may be used to compromise infected machines and download additional malicious software.</CategoryDescription>
+    <ThreatTypeID>10</ThreatTypeID>
+    <ThreatType>Worm</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>63</CategoryID>
+    <CategoryName>Worm.W32</CategoryName>
+    <CategoryDescription>A Worm is a malicious program that spreads itself without any user intervention. Worms are similar to viruses in that they self-replicate. Unlike viruses, however, worms spread without attaching to or infecting other programs and files. A Worm can spread across computer networks via security holes on vulnerable machines connected to the network. Worms can also spread through email by sending copies of itself to everyone in the user's address book. A Worm may consume a large amount of system resources and cause the machine to become noticeably sluggish and unreliable. Some Worms may be used to compromise infected machines and download additional malicious software.</CategoryDescription>
+    <ThreatTypeID>10</ThreatTypeID>
+    <ThreatType>Worm</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>65</CategoryID>
+    <CategoryName>Worm.W64</CategoryName>
+    <CategoryDescription>A Worm is a malicious program that spreads itself without any user intervention. Worms are similar to viruses in that they self-replicate. Unlike viruses, however, worms spread without attaching to or infecting other programs and files. A Worm can spread across computer networks via security holes on vulnerable machines connected to the network. Worms can also spread through email by sending copies of itself to everyone in the user's address book. A Worm may consume a large amount of system resources and cause the machine to become noticeably sluggish and unreliable. Some Worms may be used to compromise infected machines and download additional malicious software.</CategoryDescription>
+    <ThreatTypeID>10</ThreatTypeID>
+    <ThreatType>Worm</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>64</CategoryID>
+    <CategoryName>Worm.W95</CategoryName>
+    <CategoryDescription>A Worm is a malicious program that spreads itself without any user intervention. Worms are similar to viruses in that they self-replicate. Unlike viruses, however, worms spread without attaching to or infecting other programs and files. A Worm can spread across computer networks via security holes on vulnerable machines connected to the network. Worms can also spread through email by sending copies of itself to everyone in the user's address book. A Worm may consume a large amount of system resources and cause the machine to become noticeably sluggish and unreliable. Some Worms may be used to compromise infected machines and download additional malicious software.</CategoryDescription>
+    <ThreatTypeID>10</ThreatTypeID>
+    <ThreatType>Worm</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+  <ThreatCategoryGlossary>
+    <CategoryID>33</CategoryID>
+    <CategoryName>Zombie/Bot</CategoryName>
+    <CategoryDescription>Zombies and Bots are programs used to compromise a computer and allow it to be remotely exploited by an attacker for specific malicious tasks. A computer infected with a Zombie or Bot may be used by an attacker to send spam, participate in a Distributed Denial of Service (DDOS) attack against web sites or other computers, or install adware and spyware for monetary gain. The "zombied" or compromised computer becomes part of a Botnet -- a large network of other compromised machines that are controlled and used for malicious purposes by the Bot master.</CategoryDescription>
+    <ThreatTypeID>8</ThreatTypeID>
+    <ThreatType>Remote Control Tool</ThreatType>
+    <IsVirus>false</IsVirus>
+  </ThreatCategoryGlossary>
+</ThreatCategoryGlossaryDB>

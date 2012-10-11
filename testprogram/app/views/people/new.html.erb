@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Yo! Let's add someone to the database!</h1>
+
+
+<%= form_for :new, html: {method: 'get'} do |f| %>
+<p>
+  <%= f.label :q, "Enter a name (last, first, middle format, pretty please)." %>
+  <%= f.text_field :q, name: :q, value: params[:q] %>
+  <%= f.button 'Go' %>
+</p>  
+
+
+<% end %>
+
+
+<%= link_to 'search', search_people_path %>
+<%= link_to 'Back', people_path %>

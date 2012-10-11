@@ -14,7 +14,9 @@ ActiveRecord::Base.establish_connection(
 )
 
 class Person < ActiveRecord::Base
+  #   validates_presence_of     :subdomain, :name, :email_address, :password
  # self.table_name = "taxpayer"
+  validates :name1, :uniqueness => true, :presence => true
 end
 
 class UserInteraction
@@ -42,27 +44,39 @@ class UserInteraction
     middle_name = ask("Middle name?").upcase
     suffix = ask("Suffix?").upcase
     full_name = "#{last_name} #{first_name} #{middle_name} #{suffix}"
-    check_dup = Person.where(['name1 LIKE ?', "#{full_name}"]).first
-    if check_dup.nil? 
-      Person.create(:ID => '321', :name1 => '#{full_name}', :name2 => '', :O1_LN => '', :O1_FN => '', :O1_MN => '', :O1_S => '', :O2_LN => '', :O2_FN => "", :O2_MN => "", :O2_S => "", :O1_TN => "")
-      Person.save!
+    
+    person = Person.new(:name1 => full_name)
+    if person.save
+      puts "saved!"
     else
-      puts "There is already someone by that name in the database."
+      puts person.errors.full_messages.to_sentence
+      # puts "There is already someone by that name in the database."
       run
     end
+    #check_dup = Person.where(['name1 LIKE ?', "#{full_name}"]).first
+   # if check_dup.nil? 
+      # .new .save .false
+      # Person.create(:ID => 321, :name1 => full_name, :name2 => '', :O1_LN => '', :O1_FN => '', :O1_MN => '', :O1_S => '', :O2_LN => '', :O2_FN => "", :O2_MN => "", :O2_S => "", :O1_TN => "")
+      # Person.save!
+      # person = Person.new(:ID => 321, :name1 => full_name)
+      # person.save!
+     # Person.create!(:name1 => full_name)   
+    #else
+   
+  #end
   
   end
   
   def findedit
     @input_name = ask("Whose information do you need to edit?").upcase
-    @name_to_edit = Person.lock("LOCK IN SHARE MODE").where(['name1 LIKE ?', "#{@input_name}%"]).first
+    @person_to_edit = Person.lock("LOCK IN SHARE MODE").where(['name1 LIKE ?', "#{@input_name}%"]).first
    #IRB.start
-    if @name_to_edit.nil?
+    if @person_to_edit.nil?
       puts "No one with that last name was found.  Please try again."
       run
     else
     #name_to_edit = Person.where(['name1 LIKE ?', "#{@input_name}%"]).first
-      found_record = ask("Is this the correct record?: '#{@name_to_edit.name1}'").upcase
+      found_record = ask("Is this the correct record?: '#{@person_to_edit.name1}'").upcase
       if found_record == "YES"
         edit
       else
@@ -75,13 +89,16 @@ class UserInteraction
       @changed_name = ask("Please type in the corrected name, last, first, middle, suffix").upcase
         check_correct = ask("Is this correct?: '#{changed_name}'")
         if check_correct == "YES"
-          Person.name1 = @changed_name
-          put Person.name1
+          @person_to_edit.name1 = @changed_name
+          @person_to_edit.save
+          # Person.name1 = @changed_name
+          # put Person.name1
         else
           edit
         end
     end
 
+    
 end
 
 runtime = UserInteraction.new

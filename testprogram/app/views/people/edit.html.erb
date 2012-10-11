@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Let's make some changes!!</h1>
+
+
+<p>
+ <%=@person.name1%>'s id number is:
+  <%= @person.ID%> (you can't change his ID number, though)
+</p>
+
+<%# this is an edit form (form_for @my_object [automatically has method :post])%>
+<%= form_for @person do |f| %>
+<p>
+  <%= f.label :name1 %>
+  <%= f.text_field :name1 %>
+</p>
+<p>
+  <%= f.button 'Go' %>
+  <!-- <button type="submit">Go</button> -->
+</p>
+<% end %>
+
+<%= link_to 'search', search_people_path %>
+<%= link_to 'Back', people_path %>
+
+

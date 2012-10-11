@@ -1,0 +1,32 @@
+delete contents of gemfile.lock in the actual project directory
+gem install bundler
+
+
+1) create new repository
+
+2) git init  - initialize an empty git repository in local project
+
+3) git add .  - i think this copies all the files from the local project to the repository
+
+4) git commit -m "Initial Commit"  - commit changes?
+
+5) git remote add origin https://github.com/hrmrebecca/railsinstaller_demo.git  - push changes to the server
+
+6) git push origin master  - this pushes the code, duh. don't remember what preve command does
+
+7) publickey	- if you get an error with the push, type this at the command line, then
+                  copy whatever it gives you
+		go to github and account settings and find SSH Public Keys and create a new public key, and then
+                 paste the key that you generated
+*when I used the push command, i just had to sign in w/my github account
+
+ 
+engine yard password  Clt19971#
+
+went into gemfile.lock  
+    changed  mysql2 (0.3.11-x86-mingw32)
+    to  mysql2 (0.3.11)
+  * do this for any gems ending in x86
+also in gemfile.lock 
+   under PLATFORMS
+  add ruby

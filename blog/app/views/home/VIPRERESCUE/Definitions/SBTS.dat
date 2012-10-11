@@ -1,0 +1,13 @@
+[DIR]
+1,c:\documents and settings\all users\application data
+0,c:\documents and settings\all users\shared documents\settings
+0,%COMMMON_ALTSTARTUP%
+1,%APPDATA%
+1,%LOCAL_APPDATA%
+1,%LOCAL_SETTINGS%\temp
+0,%ALTSTARTUP%
+0,%WINDOWS%
+0,%WINDOWS%\downloaded program files
+0,%WINDOWS%\system
+0,%SYSTEM%
+0,%SYSTEM%\drivers

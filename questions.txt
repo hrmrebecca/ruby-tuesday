@@ -1,0 +1,19 @@
+rails new
+
+change password in ynl
+
+rake db:create
+
+put in password; change localhost to 127.0.0.1
+
+rails generate controller home index
+  or welcome or whatever
+
+create model file
+
+what does attr_accessible do?
+
+
+what does the test folder do - is this truly for testing scenarios??
+
+resources in route - does that point to the main app file?
