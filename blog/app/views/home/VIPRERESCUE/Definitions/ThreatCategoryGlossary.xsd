@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ThreatCategoryGlossaryDB" targetNamespace="http://tempuri.org/ThreatCategoryGlossaryDB.xsd" xmlns:mstns="http://tempuri.org/ThreatCategoryGlossaryDB.xsd" xmlns="http://tempuri.org/ThreatCategoryGlossaryDB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="ThreatCategoryGlossaryDB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ThreatCategoryGlossary">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CategoryID" type="xs:int" />
+              <xs:element name="CategoryName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CategoryDescription">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ThreatTypeID" type="xs:int" minOccurs="0" />
+              <xs:element name="ThreatType" type="xs:string" minOccurs="0" />
+              <xs:element name="IsVirus" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

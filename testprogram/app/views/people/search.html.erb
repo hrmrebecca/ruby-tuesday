@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Looking for someone</h1>
+
+<%= form_for :search, html: {method: 'get'} do |f| %>
+<p>
+  <%= f.label :q, "Search by Name" %>
+  <%= f.text_field :q, name: :q, value: params[:q] %>
+  <%= f.button 'Go' %>
+</p>  
+<% end %>
+<!-- comment for html -->
+  
+<%# comment for erb (source source) -%>  
+
+<%- if @people.present? %>
+  <table>
+  <tr>
+    <th>Name</th>
+    <th> </th>
+    <th>ID</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @people.each do |person| %>
+  <tr>
+    <td><%= person.name1 %></td>
+    <td><%= person.name2 %></td>
+    <td><%= person.ID %></td>
+    <td><%= link_to 'Show', Person %></td>
+    <td><%= link_to 'Edit', edit_person_path(Person) %></td>
+    <td><%= link_to 'Destroy', Person, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<%- elsif params[:q].present? %>
+
+<h2>There are no search results</h2>
+
+<%- else %>
+
+<h2>Everybody is looking for somebody... and the person you're looking for isn't in our database.</h2>
+  <td><%= link_to 'Create', edit_person_path(Person) %></td>
+
+<%- end %>
+  
+<%= link_to 'Back', people_path %>
+

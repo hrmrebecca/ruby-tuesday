@@ -1,0 +1,127 @@
+HKEY_CLASSES_ROOT
+HKEY_CLASSES_ROOT\CLSID
+HKEY_CLASSES_ROOT\Interface
+HKEY_CLASSES_ROOT\TypeLib
+HKEY_CLASSES_ROOT\MIME\Database\Content Type
+HKEY_CURRENT_USER\Software
+HKEY_CURRENT_USER\Software\Classes
+HKEY_LOCAL_MACHINE\SOFTWARE
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+HKEY_LOCAL_MACHINE\software\microsoft\windows nt\currentversion\windows
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\windows
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\policies\explorer\run
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\explorer\run
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\run
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\runonce
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\runonceex
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\run
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\runonce
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\runonceex
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\runservicesonce
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\runservices
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\runservicesonce
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\runservices
+HKEY_LOCAL_MACHINE\software\microsoft\windows nt\currentversion\run
+HKEY_CURRENT_USER\software\microsoft\windows nt\currentversion\run
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\explorer\sharedtaskscheduler
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\shellserviceobjectdelayload
+HKEY_LOCAL_MACHINE\system\currentcontrolset\services
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\policies\shell
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\shell
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\explorer\restrictrun
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\policies\explorer\restrictrun
+HKEY_CURRENT_USER\software\policies\microsoft\windows\system\scripts\logon
+HKEY_CURRENT_USER\software\policies\microsoft\windows\system\scripts\startup
+HKEY_LOCAL_MACHINE\software\policies\microsoft\windows\system\scripts\logon
+HKEY_LOCAL_MACHINE\software\policies\microsoft\windows\system\scripts\startup
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\url\defaultprefix
+HKEY_CURRENT_USER\software\microsoft\internet explorer\searchurl
+HKEY_LOCAL_MACHINE\software\microsoft\internet explorer\searchurl
+HKEY_CURRENT_USER\software\microsoft\internet explorer\main
+HKEY_LOCAL_MACHINE\software\microsoft\internet explorer\main
+HKEY_CURRENT_USER\software\microsoft\internet explorer\search
+HKEY_LOCAL_MACHINE\software\microsoft\internet explorer\search
+HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\URLSearchHooks
+HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\URLSearchHooks
+HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Extensions\CmdMapping 
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Extensions
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved
+HKEY_CLASSES_ROOT\PROTOCOLS\Filter\
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\url\prefixes
+HKEY_LOCAL_MACHINE\software\microsoft\internet explorer\abouturls
+HKEY_CURRENT_USER\control panel\desktop
+HKEY_CURRENT_USER\software\microsoft\internet explorer\explorer bars
+HKEY_LOCAL_MACHINE\software\microsoft\internet explorer\explorer bars
+HKEY_LOCAL_MACHINE\software\microsoft\internet explorer\toolbar
+HKEY_CURRENT_USER\software\microsoft\internet explorer\toolbar\shellbrowser
+HKEY_CURRENT_USER\software\microsoft\internet explorer\toolbar\webbrowser
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\explorer\browser helper objects
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\internet settings\zones
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\internet settings\zones
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\internet settings\safesites
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\internet settings\safesites
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\internet settings\zonemap\domains
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\internet settings\zonemap\domains
+HKEY_LOCAL_MACHINE\software\microsoft\systemcertificates
+HKEY_LOCAL_MACHINE\software\policies\microsoft\internet explorer\control panel
+HKEY_CURRENT_USER\software\policies\microsoft\internet explorer\control panel
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\policies\system
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\system
+HKEY_LOCAL_MACHINE\system\currentcontrolset\control\lsa
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\policies\explorer
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\explorer
+HKEY_LOCAL_MACHINE\software\microsoft\code store database\distribution units
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\explorer\shellexecutehooks
+HKEY_LOCAL_MACHINE\system\currentcontrolset\services\winsock2\parameters\protocol_catalog9\catalog_entries
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components
+HKEY_CLASSES_ROOT\exefile\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\exefile\shell\open\command
+HKEY_CURRENT_USER\software\classes\exefile\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\exefile\shell\runas\command
+HKEY_CLASSES_ROOT\comfile\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\comfile\shell\open\command
+HKEY_CURRENT_USER\software\classes\comfile\shell\open\command
+HKEY_CLASSES_ROOT\batfile\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\batfile\shell\open\command
+HKEY_CURRENT_USER\software\classes\batfile\shell\open\command
+HKEY_CLASSES_ROOT\htafile\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\htafile\shell\open\command
+HKEY_CURRENT_USER\software\classes\htafile\shell\open\command
+HKEY_CLASSES_ROOT\piffile\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\piffile\shell\open\command
+HKEY_CURRENT_USER\software\classes\piffile\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\batfile\shell\runas\command
+HKEY_CLASSES_ROOT\txtfile\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\txtfile\shell\open\command
+HKEY_CURRENT_USER\software\classes\txtfile\shell\open\command
+HKEY_CLASSES_ROOT\mp3file\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\mp3file\shell\open\command
+HKEY_CURRENT_USER\software\classes\mp3file\shell\open\command
+HKEY_CLASSES_ROOT\mpegfile\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\mpegfile\shell\open\command
+HKEY_CURRENT_USER\software\classes\mpegfile\shell\open\command
+HKEY_CLASSES_ROOT\mailto\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\mailto\shell\open\command
+HKEY_CURRENT_USER\software\classes\mailto\shell\open\command
+HKEY_CLASSES_ROOT\htmlfile\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\htmlfile\shell\open\command
+HKEY_CURRENT_USER\software\classes\htmlfile\shell\open\command
+HKEY_CLASSES_ROOT\http\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\http\shell\open\command
+HKEY_CURRENT_USER\software\classes\http\shell\open\command
+HKEY_CLASSES_ROOT\https\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\https\shell\open\command
+HKEY_CURRENT_USER\software\classes\https\shell\open\command
+HKEY_CLASSES_ROOT\ftp\shell\open\command
+HKEY_LOCAL_MACHINE\software\classes\ftp\shell\open\command
+HKEY_CURRENT_USER\software\classes\ftp\shell\open\command
+HKEY_CURRENT_USER\software\microsoft\windows\currentversion\explorer\user shell folders
+HKEY_LOCAL_MACHINE\software\microsoft\windows nt\currentversion\image file execution options
+HKEY_CLASSES_ROOT\*\shellex\contextmenuhandlers
+HKEY_LOCAL_MACHINE\software\classes\*\shellex\contextmenuhandlers
+HKEY_CURRENT_USER\software\classes\*\shellex\contextmenuhandlers
+HKEY_LOCAL_MACHINE\software\microsoft\windows nt\currentversion\winlogon
+HKEY_LOCAL_MACHINE\software\microsoft\windows nt\currentversion\winlogon\domaincache
+HKEY_LOCAL_MACHINE\software\microsoft\windows nt\currentversion\winlogon\notify
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\winlogon

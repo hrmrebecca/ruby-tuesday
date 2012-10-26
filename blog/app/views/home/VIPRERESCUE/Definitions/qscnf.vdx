@@ -1,0 +1,24 @@
+c:\documents and settings\all users\application data
+c:\documents and settings\all users\shared documents\settings
+%COMMMON_ALTSTARTUP%
+%COMMON_PROGRAMS%
+%COMMON_STARTMENU%
+%COMMON_FAVORITES%
+%COMMON_DESKTOPDIRECTORY%
+%PROFILE%
+%APPDATA%
+%DESKTOPDIRECTORY%
+%FAVORITES%
+%LOCAL_APPDATA%
+%LOCAL_SETTINGS%
+%LOCAL_SETTINGS%\temp
+%STARTMENU%
+%PROGRAM_FILES%
+%ALTSTARTUP%
+%PROGRAM_FILES%
+%PROGRAM_FILES%\Common Files
+%WINDOWS%
+%WINDOWS%\downloaded program files
+%WINDOWS%\system
+%SYSTEM%
+%SYSTEM%\drivers
